@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+  <id>unique_plugin_id</id>
+  <version>1.0.0</version>
+  <type>action</type>
+  <name>
+    <label locale="en_US">My Plugin</label>
+    <label locale="nl_NL">Mijn plugin</label>
+  </name>
+  <description>
+    <label locale="en_US">My Plugin allows for flexible dialogues.</label>
+    <label locale="nl_NL">Mijn plugin zorgt voor flexibele dialogen.</label>
+  </description>
+
+  <!-- frontend specific properties -->
+  <frontend>
+    <script>myplugin.js</script>
+    <positiontype>position</positiontype>
+  </frontend>
+
+  <!-- backend specific properties -->
+  <backend>
+    <view>channel</view>
+  </backend>
+</plugin>

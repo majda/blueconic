@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+  <id>myplugin</id>
+  <name>My Plugin</name>
+  <versions>
+    <version location="1.0.0/myplugin.xml" />
+  </versions>
+</plugin>
