@@ -4,7 +4,5 @@
   <name>My Plugin</name>
   <versions>
     <version location="1.0.0/myplugin.xml" />
-    <version location="1.1.0/myplugin.xml" />
-    <version location="1.2.0/myplugin.xml" />
   </versions>
 </plugin>
