@@ -11,7 +11,7 @@ InteractionTypeImpl = InteractionType.extend({
     const vehicleMake = dataLayer?.find(obj => obj.event === 'page-metadata-ready')?.make;
     const vehicleModel = dataLayer?.find(obj => obj.event === 'page-metadata-ready')?.productFamilyShortName;
 
-    return '<div style="color: blue; font-weight: bold;">Make: ' + vehicleMake + ' | Model: ' + vehicleModel +'</div>';
+    return '<div style="color: green; font-weight: bold;">Make: ' + vehicleMake + ' | Model: ' + vehicleModel +'</div>';
   },
 
   // Called when an interaction based on this type is executed.
